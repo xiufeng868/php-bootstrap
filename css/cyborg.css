@@ -1,0 +1,75 @@
+html,
+body {
+    height: 100%;
+}
+#wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -40px;
+    padding: 0 0 40px;
+}
+#footer {
+    height: 40px;
+    background-color: #222222;
+}
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+#wrap > .container {
+    padding: 60px 15px 0;
+}
+.container .text-muted {
+    margin: 10px 0;
+}
+#footer > .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#actTable {
+    font-size: 13px;
+}
+.divEasing
+{
+    border: 1px solid #333;
+    display: none;
+    position: absolute;
+    padding: 10px 20px 20px;
+    width: 350px;
+    font-size: 14px;
+    font-weight: normal;
+    z-index: 999;
+    opacity: 0.9;
+}
+.divEasing .top {
+    border-bottom: 1px solid #ccc;
+    padding: 3px 0px;
+    font-weight: bold;
+}
+.divEasing p {
+    padding-top: 5px;
+}
+.pagination {
+    margin: 0px;
+    float: right;
+}
+#searchPanel {
+    display: none;
+    margin-bottom: 5px;
+}
+.btnPanel {
+    margin-bottom: 20px;
+}
+#modModal .modal-body {
+    padding-bottom: 0px;
+}
+#modModal .control-label {
+    line-height: 12px;
+}
+#alert {
+    display: none;
+    text-align: center;
+    opacity: 0.75;
+    position: absolute;
+    margin-top: -10px;
+    z-index: 9999;
+}
